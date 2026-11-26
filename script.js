@@ -1,12 +1,12 @@
 (()=> {
     'use strict';setTimeout(()=>document.getElementById('loadingScreen')?.classList.add('is-hidden'),100);const REGION='75',START=150000,letters=['А','В','Е','К','М','Н','О','Р','С','Т','У','Х'];const cases=[ {
-        id:'1',name:'Стартовый',price:15000,weights:[82,14,3.5,0.5,0],icon:'📦',level:1
+        id:'1',name:'Стартовый',price:15000,weights:[82,14,0.9,0.5,0],icon:'📦',level:1
     }
     , {
-        id:'2',name:'Уверенный',price:40000,weights:[70, 22, 6.5, 1.4, 0.1],icon:'🧰',level:3
+        id:'2',name:'Уверенный',price:40000,weights:[70, 22, 2, 1.4, 0.1],icon:'🧰',level:3
     }
     , {
-        id:'3',name:'Редкий',price:100000,weights:[55, 30, 11, 3.5, 0.5],icon:'🗃️',level:6
+        id:'3',name:'Редкий',price:100000,weights:[55, 30, 5, 3.5, 0.5],icon:'🗃️',level:6
     }
     , {
         id:'4',name:'Эпический',price:250000,weights:[40, 35, 17, 6, 2],icon:'⚡',level:10
@@ -206,4 +206,4 @@
     }
     ,60000)
 }
-)();
+)();    
