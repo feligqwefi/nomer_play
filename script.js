@@ -1,21 +1,21 @@
 (()=> {
     'use strict';setTimeout(()=>document.getElementById('loadingScreen')?.classList.add('is-hidden'),100);const REGION='75',START=150000,letters=['А','В','Е','К','М','Н','О','Р','С','Т','У','Х'];const cases=[ {
-        id:'1',name:'Стартовый',price:15000,weights:[65,25,8,1.8,.2],icon:'📦',level:1
+        id:'1',name:'Стартовый',price:15000,weights:[82,14,3.5,0.5,0],icon:'📦',level:1
     }
     , {
-        id:'2',name:'Уверенный',price:40000,weights:[50,30,15,4,1],icon:'🧰',level:3
+        id:'2',name:'Уверенный',price:40000,weights:[70, 22, 6.5, 1.4, 0.1],icon:'🧰',level:3
     }
     , {
-        id:'3',name:'Редкий',price:100000,weights:[35,35,20,8,2],icon:'🗃️',level:6
+        id:'3',name:'Редкий',price:100000,weights:[55, 30, 11, 3.5, 0.5],icon:'🗃️',level:6
     }
     , {
-        id:'4',name:'Эпический',price:250000,weights:[20,35,25,15,5],icon:'⚡',level:10
+        id:'4',name:'Эпический',price:250000,weights:[40, 35, 17, 6, 2],icon:'⚡',level:10
     }
     , {
-        id:'5',name:'Мифический',price:600000,weights:[10,25,30,25,10],icon:'💎',level:15
+        id:'5',name:'Мифический',price:600000,weights:[25, 35, 22, 13, 5],icon:'💎',level:15
     }
     , {
-        id:'6',name:'Легендарный',price:1500000,weights:[0,10,20,40,30],icon:'👑',level:20
+        id:'6',name:'Легендарный',price:1500000,weights:[10, 25, 30, 22, 13],icon:'👑',level:20
     }
     , {
         id:'7',name:'VOID · Конструктор',price:5000000,weights:[100],icon:'⬛',level:25
